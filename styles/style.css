@@ -246,4 +246,37 @@ nav h1{
 
 /* footer sectoion style start  */
 
+footer{
+    background-color: #D6DDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+footer .footer-title{
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+footer .footer-subtitle{
+    color: hsl(244, 16%, 17% ,80%);
+    margin-top: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer .footer-link-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+    margin-top: 10px;
+}
+footer .footer-link-container a{
+    text-decoration: none;
+    font-size: 16px;
+    color: hsl(244, 16%, 17% ,80%);
+}
+
 
