@@ -28,6 +28,12 @@ header{
     border: none;
     font-size: 16px;
 }
+
+.btn:hover{
+    background-color: green;
+    font-weight: 700;
+}
+
 /* shared style end*/
 /* header section style start */
 nav{
