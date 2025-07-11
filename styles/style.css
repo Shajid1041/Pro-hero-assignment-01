@@ -195,4 +195,55 @@ nav h1{
 /* review section style end */
 
 /* news-letter section style start */
+.newslatter-section{
+    max-width: 1140px;
+    margin: 15px auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+    padding: 71px 0;
+    
+}
+.newslatter-section h1{
+    color: black;
+    font-size: 97px;
+    font-weight: bold;
+    line-height: 120%;
+}
+.newslatter-section form{
+    width: 497px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-right: 0;
+    gap: 19px;
+    color:black;
+    font-size: 18px;
+    font-weight: 600;
+    
+    
+
+}
+.newslatter-section form input[type="text"], input[type="email"],textarea{
+    width: 350px;
+    background-color: #D6DDED;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: none;
+    color: hsl(0, 0%, 0%,50%);
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.newslatter-section form input[type="submit"]{
+    width: 100%;
+    padding: 19px 0;
+}
 /* news-letter section style end */
+
+/* footer sectoion style start  */
+
+
