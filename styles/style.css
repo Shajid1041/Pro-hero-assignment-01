@@ -235,7 +235,7 @@ nav h1{
 }
 .newslatter-section form input[type="text"], input[type="email"],textarea{
     width: 350px;
-    background-color: #D6DDED;
+    background-color: hsl(0, 16%, 94% ,50%);
     padding: 20px 32px;
     border-radius: 10px;
     border: none;
@@ -253,7 +253,7 @@ nav h1{
 /* footer sectoion style start  */
 
 footer{
-    background-color: #D6DDED;
+    background-color: hsl(242, 100%, 64%,10%);
     display: flex;
     flex-direction: column;
     align-items: center;
